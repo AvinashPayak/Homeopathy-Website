@@ -33,14 +33,14 @@
         <div class="main-nav">
             <div class="logo"><img src="../static/images/logo.svg" alt="logo"></div>
             <ul class="main-nav__items">
-                <li class="main-nav__item">Home</li>
-                <li class="main-nav__item">Dr Ashok Sharma</li>
-                <li class="main-nav__item">Why Homeopathy?</li>
-                <li class="main-nav__item">Testimonials</li>
-                <li class="main-nav__item">Diseases</li>
-                <li class="main-nav__item">Gallery</li>
-                <li class="main-nav__item">Blog</li>
-                <li class="main-nav__item">FAQ</li>
+                <li class="main-nav__item"> <a href="#home">Home</a></li>
+                <li class="main-nav__item"><a href="#doc">Dr Ashok Sharma </a></li>
+                <li class="main-nav__item"><a href="#whyhomeo"> Why Homeopathy? </a></li>
+                <li class="main-nav__item"><a href="#testimonials">Testimonials</a></li>
+                <li class="main-nav__item"><a href="#diseases">Diseases</a></li>
+                <li class="main-nav__item"><a href="#gallery">Gallery</a></li>
+                <li class="main-nav__item"><a href="#blog">Blog</a></li>
+                <li class="main-nav__item"><a href="#faq">FAQ</a></li>
                 <li class="main-nav__item nav-item-ctn">Book an Appointment</li>
             </ul>
         </div>
@@ -49,7 +49,7 @@
     <main>
         <!-- Section One Start-->
 
-        <section class="section-one">
+        <section id="home" class="section-one">
             <div class="section-one-flex">
                 <div class="section-one__images">
                     <div class="section-one-image__purple"></div>
@@ -127,7 +127,7 @@
         <!-- Section Two End-->
 
         <!-- Section Three Start-->
-        <section class="section-three">
+        <section id="doc" class="section-three">
             <div class="section-three-flex">
                 <div class="section-three-images">
                     <div class="section-three-image__purple"></div>
@@ -146,7 +146,7 @@
         <!-- Section Three End-->
 
         <!-- Section Four Start-->
-        <section class="section-four">
+        <section id="whyhomeo" class="section-four">
             <div>
                 <div class="section-four-content-one">
                     <h1>Why choose homeopathy?</h1>
@@ -216,7 +216,7 @@
         <!-- Section Four End--> 
 
         <!-- Section Five Start--> 
-        <section class="section-five">
+        <section id="diseases" class="section-five">
             <div>
                 <div class="section-five-content">
                     <h1>Tell us what you are going through</h1>
@@ -268,7 +268,7 @@
         <!-- Section Five End--> 
 
         <!-- Section Six Start--> 
-        <section class="section-six">
+        <section id="testimonials" class="section-six">
             <div>
                 <h1>1000+ patients cured</h1>
                 <div class="section-six__cards">
@@ -369,7 +369,7 @@
         <!-- Section Seven End-->
 
         <!-- Section Eight Start-->         
-        <section class="section-eight">
+        <section id="gallery" class="section-eight">
             <h1>Gallery</h1>
             <div class="section-eight-flex">
                 <div class="large-img">
@@ -473,7 +473,7 @@
         <!-- Section Ten End-->
 
         <!-- Section Eleven Start-->
-        <section class="section-eleven">
+        <section id="blog" class="section-eleven">
             <div>
                 <h1>Blog</h1>
                 <div class="section-eleven__cards">
@@ -511,7 +511,7 @@
         </section>
         <!-- Section Eleven End-->
         <!-- Section Twelve Start-->
-        <section class="section-twelve">
+        <section id="faq" class="section-twelve">
             <div>
                 <h1>Frequently Asked Questions</h1>
                 <div class="section-twelve__questions">
@@ -555,7 +555,33 @@
         </div>
     </footer>
 </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
 
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
 </body>
 
 </html>
