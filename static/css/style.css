@@ -60,6 +60,16 @@ img {
     font-size: 35px;
     margin-bottom: 130px;
 }
+.slide-up{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 90px;
+    z-index: 1;
+    background: wheat;
+    border-radius: 50%;
+}
+
 /*Navigtion Bar*/
 /*Contact Navigation*/
 /* Load Resources Start*/
@@ -586,7 +596,7 @@ font-size: 40px;
 
 /* Section Eight Start*/
 .section-eight{
-    padding: 100px 50px 100px 130px;
+    padding: 0px 50px 100px 130px;
 }
 .section-eight-flex{
     width: 100%;
@@ -848,9 +858,7 @@ footer {
     .contact-nav{
     height: 100%;
     }
-    .social-media{
-       margin-left: initial;
-    }
+ 
     .main-nav__items{
         margin-left: initial;
     }
