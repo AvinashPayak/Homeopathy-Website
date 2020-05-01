@@ -55,7 +55,6 @@ img {
 }
 
 .quote{
-    font-family: 'Libre Baskerville', serif;
     color: var(--quote);
     font-weight: 500;
     font-size: 1.8vw;
@@ -303,7 +302,6 @@ img {
 }
 .section-two__card p {
     font-size: 1.563vw;
-    font-family: 'Libre Baskerville', serif;
     line-height: 1.6;
     color: var(--dark);
     margin: 0;
@@ -548,7 +546,6 @@ margin-bottom: 0;
     overflow-y: scroll;
     height: 10vw;
     font-size: 1.8vw;
-    font-family: 'Libre Baskerville', serif;
 
 
 }
