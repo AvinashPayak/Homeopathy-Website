@@ -464,11 +464,13 @@ margin-bottom: 0;
     flex: 2;
     display: inline-block;
     color: var(--dark);
+    font-weight: 600;
     font-size: 2.083vw;
 }
 .section-four-comparison__card h3 {
     flex: 1;
     display: inline-block;
+    font-weight: 600;
     color: var(--dark);
     font-size: 2.083vw;
 }
@@ -506,7 +508,7 @@ margin-bottom: 0;
 .section-five-caption{
     margin-left: auto;
     font-size: 1.563vw;
-    font-weight: 500;
+    font-weight: 600;
     color: var(--dark);
 }
 .section-five__cards button{
