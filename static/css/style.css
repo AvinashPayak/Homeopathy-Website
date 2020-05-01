@@ -194,7 +194,7 @@ img {
 .section-one__rating p {
     font-size: 22px;
     margin-bottom: 0.521vw;
-    font-weight: 600;
+    font-weight: medium;
 
 }
 .stars{
@@ -291,6 +291,7 @@ img {
 }
 .name {
     font-size: 1.563vw;
+    font-weight: medium;
     padding: 0 0.521vw;
     margin: 0;
     color: var(--dark);
