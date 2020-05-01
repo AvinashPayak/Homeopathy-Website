@@ -442,6 +442,8 @@ img {
 flex: 1;
 color: var(--dark);
 font-size: 2.083vw;
+font-weight: 600;
+margin-bottom: 0;
 }
 .comparison-space{
     flex:2;
@@ -486,13 +488,12 @@ font-size: 2.083vw;
     text-align: center;
     padding: 4.115vw 4.688vw;
 }
+
 .section-five-fb1{
     width: 72.917vw;
     display: flex;
     padding-bottom: 2.604vw;
 }
-
-
 .section-five-fb2{
     display: flex;
 }
@@ -503,6 +504,7 @@ font-size: 2.083vw;
 .section-five-caption{
     margin-left: auto;
     font-size: 1.563vw;
+    font-weight: 500;
 }
 .section-five__cards button{
     padding: 1.198vw 4.167vw;
@@ -559,6 +561,7 @@ font-size: 2.083vw;
 .section-seven-content p{
     width: 39.948vw;
     font-size: 1.094vw;
+    font-weight: 500;
 }
 .section-seven-content h1{
     margin-bottom: 1.042vw;
