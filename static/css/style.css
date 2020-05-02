@@ -144,7 +144,7 @@ img {
 .main-nav__item{
     display: inline-block;
     margin:0  0.625vw;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 0.938vw;
     color: var(--dark);
 }
@@ -248,7 +248,7 @@ img {
     border-radius: 3.906vw 0;
     opacity: 1;
     color:#FFFFFF;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 1.146vw;
     padding: 1.667vw 2.5vw 0 2.5vw;
 }
@@ -294,7 +294,7 @@ img {
 }
 .name {
     font-size: 1.563vw;
-    font-weight: 600;
+    font-weight: 500;
     padding: 0 0.521vw;
     margin: 0;
     color: var(--dark);
@@ -415,7 +415,7 @@ img {
     color: var(--dark);
     text-align: left;
     width: 13.542vw;
-    font-weight: 600;
+    font-weight: 500;
 }
 .section-four__card p{
     text-align: left;
@@ -448,7 +448,7 @@ img {
 flex: 1;
 color: var(--dark);
 font-size: 2.083vw;
-font-weight: 600;
+font-weight: 500;
 margin-bottom: 0;
 }
 .comparison-space{
@@ -469,13 +469,13 @@ margin-bottom: 0;
     flex: 2;
     display: inline-block;
     color: var(--dark);
-    font-weight: 600;
+    font-weight: 500;
     font-size: 2.083vw;
 }
 .section-four-comparison__card h3 {
     flex: 1;
     display: inline-block;
-    font-weight: 600;
+    font-weight: 500;
     color: var(--dark);
     font-size: 2.083vw;
 }
@@ -513,7 +513,7 @@ margin-bottom: 0;
 .section-five-caption{
     margin-left: auto;
     font-size: 2.778vh;
-    font-weight: 600;
+    font-weight: 500;
     color: var(--dark);
 }
 .section-five__cards button{
@@ -547,7 +547,7 @@ margin-bottom: 0;
 .section-six__card h3{
     color: var(--dark);
     font-size: 2.083vw;
-    font-weight: 600;
+    font-weight: 500;
     padding: 0.26vw 0;
     margin-bottom: 0px;
 }
@@ -600,7 +600,7 @@ margin-bottom: 0;
     position: relative;
     font-size: 1.563vw;
     color: white;
-    font-weight: 600;
+    font-weight: 500;
     bottom: 13.021vw;
     left: 7.292vw;
 }
@@ -619,7 +619,7 @@ margin-bottom: 0;
 .section-seven__card{
     font-size: 1.2vw;
     color: var(--dark);
-    font-weight: 600;
+    font-weight: 500;
     flex: 1;
 }
 
@@ -822,7 +822,7 @@ margin-bottom: 0;
     font-size: 1.146vw;
     line-height: 1.6;
     color: #10182F;
-    font-weight: 600;
+    font-weight: 500;
 }
 .section-eleven-desc{
     font-size: 0.938vw;
@@ -900,7 +900,7 @@ footer {
     text-align: center;
     height: 4.688vw;
     font-size: 1.146vw;
-    font-weight: 600;
+    font-weight: 500;
     padding: 2.292vw 0 ;
     background: #10182F;
     color: white;
