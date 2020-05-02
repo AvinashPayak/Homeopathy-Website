@@ -176,7 +176,7 @@ img {
 }
 .section-one-content h1 {
     width: 45.5vw;
-    font-weight: 800;
+    font-weight: 700;
     line-height: 1.22;
     margin: 3.646vw 0 1.3vw 0;
 }
@@ -586,7 +586,7 @@ margin-bottom: 0;
 }
 .section-seven-content h1{
     margin-bottom: 1.042vw;
-    font-weight: 800;
+    font-weight: 700;
 }
 .section-seven-flex{
     display: flex;
@@ -716,7 +716,7 @@ margin-bottom: 0;
 /* Section Nine End*/
 /* Section Ten */
 .section-ten h1 {
-    font-weight: 800;
+    font-weight: 700;
 }
 .section-ten{
     padding:4.531vw 3.49vw 0 6.094vw;
