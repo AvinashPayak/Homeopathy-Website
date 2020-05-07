@@ -987,6 +987,10 @@ body {
         scroll-behavior: smooth;
     
     } */
+ul {
+    padding: 0;
+    margin: 0;
+}    
 a {
     text-decoration: none;
     color: inherit;
@@ -1046,13 +1050,18 @@ img {
     /*Contact Navigation*/
     /* Load Resources Start*/
     .call-icon{
+        position: relative;
+        top: 2px;
         height: 12px;
         width: 12px;
+        margin-right: 3px;
     }
     .plane-icon{
+        position: relative;
+        top: 2px;
         height: 12px;
         width: 12px;
-        margin-left: 5px;
+        margin-right: 3px;
     }
     .twitter {
         height: 12px;
@@ -1061,17 +1070,20 @@ img {
     .facebook {
         height:12px;
         width: 12px;
+        margin: 0 5px;
+
     }
     .instagram {
         height: 12px;
         width: 12px;
+        margin: 0 5px;
     }
     /* Load Resources End*/
 header {
     width: 100%;
 }    
     .contact-nav {
-        padding: 10px 5px;
+        padding: 10px 5px ;
         width: 100vw;
         height: 14px;
         background: var(--primary);
@@ -1080,12 +1092,14 @@ header {
     .contact-nav ul {
         display: flex;
         justify-content: center;
-        margin: 0 5px;
+        margin: 0;
         list-style: none;
     }
     .contact-nav li {
+        position: relative;
+        bottom: 3px;
         vertical-align: middle;
-        padding: 0;
+        padding: 0 4px;
         color: white;
         font-size: 12px;
         display: inline-block;
@@ -1095,6 +1109,9 @@ header {
         width: 12px !important;
     }
     .social-media {
+        vertical-align: middle;
+        position: relative;
+        top: -2px;
         text-align: right;
         margin-left: auto;
     }
