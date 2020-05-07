@@ -1032,52 +1032,47 @@ img {
     .call-icon{
         height: 12px;
         width: 12px;
-        padding-right: 0.52vw;
     }
     .plane-icon{
         height: 12px;
         width: 12px;
-        padding-right: 0.52vw;
+        margin-left: 5px;
     }
     .twitter {
         height: 12px;
         width: 12px;
-        padding: 0 5px;
     }
     .facebook {
         height:12px;
         width: 12px;
-        padding: 0 5px;
     }
     .instagram {
         height: 12px;
         width: 12px;
-        padding: 0 5px;
     }
     /* Load Resources End*/
 header {
     width: 100%;
 }    
     .contact-nav {
-        padding: 10px 0;
-        width: 100%;
+        padding: 10px 5px;
+        width: 100vw;
         height: 14px;
         background: var(--primary);
         vertical-align: middle;
     }
     .contact-nav ul {
         display: flex;
-        margin: 0;
+        justify-content: center;
+        margin: 0 5px;
         list-style: none;
-        padding: 0;
-        vertical-align: middle;
     }
     .contact-nav li {
-        padding: 0 0.677vw;
+        vertical-align: middle;
+        padding: 0;
         color: white;
         font-size: 12px;
         display: inline-block;
-        vertical-align: middle;
     }
     .contact-nav img {
         height: 12px !important;
@@ -1090,15 +1085,19 @@ header {
     
     /*End Contact Navigation*/
     /*Main Navigation*/
-    .main-nav{
-        display: flex;
-        padding: 1.042vw 4.688vw 0px 6.094vw;
-    }
-    .logo {
-        width: 10.625vw;
-        height: 3.542vw;
-    }
+.main-nav{
+    margin: 0;
+    padding: 0;
+    margin-top: 21px;
+    margin-left: 14px;
+    display: flex;
+}
+.logo {
+    width: 115px;
+    height: 38px;
+}
     .main-nav__items{
+        display: none;
         margin-left: auto;
         list-style: none;
     }
