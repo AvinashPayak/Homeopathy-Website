@@ -1,7 +1,7 @@
 :root {
     --primary:#289976 ;
     --dark: #464646;
-    --shadow: 6px 10px 30px #2899763B;;
+    --shadow: 6px 10px 30px #2899763B;
     --quote: #5C19B3;
 }
 
@@ -195,7 +195,7 @@ img {
     margin-left: 0;
 }
 .section-one__rating p {
-    font-size: 22px;
+    font-size: 1.146vw;
     margin-bottom: 0.521vw;
     font-weight: 400;
 
@@ -506,13 +506,15 @@ margin-bottom: 0;
 .section-five-fb2{
     display: flex;
 }
-
+.section-five__card img {
+    width: 6.875vw;
+}
 .section-five__card{
     flex: 1;
 }
 .section-five-caption{
     margin-left: auto;
-    font-size: 2.778vh;
+    font-size: 1.56vw;
     font-weight: 500;
     color: var(--dark);
 }
@@ -568,9 +570,45 @@ margin-bottom: 0;
     overflow-y: scroll;
     height: 10vw;
     font-size: 1.8vw;
-
-
 }
+/*section six slider image before after*/
+.section-six__ba-images {
+    width: 100%;
+    text-align: center;
+}
+.img-comp-container {
+    position: relative;
+    left: 7.813vw;
+    height: 10.417vw; /*should be the same height as the images*/
+  }
+  
+  .img-comp-img {
+    position: absolute;
+    width: auto;
+    height: auto;
+    overflow:hidden;
+  }
+  
+  .img-comp-img img {
+    display:block;
+    vertical-align:middle;
+    width: 15.625vw;
+    height: 10.417vw;
+  }
+  
+  .img-comp-slider {
+    position: absolute;
+    z-index:9;
+    cursor: ew-resize;
+    /*set the appearance of the slider:*/
+    width: 2vw;
+    height: 2vw;
+    background-color:lightgray;
+    opacity: 0.9;
+    border-radius: 50%;
+  }
+/*section six slider image before after end*/
+
 /* Section Six End*/
 
 /* Section Seven*/
@@ -615,6 +653,9 @@ margin-bottom: 0;
 }
 .section-seven-fb2{
     display: flex;
+}
+.section-seven__card img {
+    width: 6.875vw;
 }
 .section-seven__card{
     font-size: 1.2vw;
