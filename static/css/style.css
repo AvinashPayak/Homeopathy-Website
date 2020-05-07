@@ -261,6 +261,22 @@ img {
     text-align: right;
     margin: 0;
 }
+.section-one-image__purpledots{
+    position: absolute;
+    top: 16vw;
+    right: 4.8vw;
+    width: 10.417vw;
+    height: 10.418vw;
+    z-index: -1;
+}
+.section-one-image__greendots7 img{
+    position: absolute;
+    top: 48vw;
+    left: -2.5vw;
+    width: 12vw;
+    height: 12vw;
+    z-index: -1;
+}
 /*Section One Images End*/
 /*End Section One*/
 
@@ -987,7 +1003,7 @@ h1{
     color: white;
     padding: 16px 10px;
     border: 0;
-    margin: 1.3vw;
+    margin: 20px;
     border-radius: 44px;
     font-size: 14px;
     font-weight: medium;
@@ -1121,105 +1137,142 @@ header {
     
     /*Section One*/
     .section-one{
-        padding:4.531vw 3.49vw 5.2vw 6.094vw ;
+        padding:0;
+        margin-left: 19px;
+        margin-right: 18px;
+        margin-top: 23px;
         position: relative;
     }
     
     .section-one-flex {
         display: flex;
+        flex-direction: column;
         justify-content: space-between;
     }
     /*Section One Content*/
     .section-one-content{
-        flex: 0 0 43.125vw;
-        order: 1;
+        flex: 0 0 288px;
+        margin-top: 35px;
+        order: 2;
     }
     .section-one-content h1 {
-        width: 45.5vw;
+        width: 265px;
         font-weight: 700;
-        line-height: 1.22;
-        margin: 3.646vw 0 1.3vw 0;
+        line-height: 1.42;
+        margin: 0;
     }
     .section-one-content h1 span{
         color: var(--primary);
     }
     .section-one-content p{
         color: var(--dark);
-        font-size: 1.1vw; /*2.307vh 22px*/
-        width: 39.94vw;
-        line-height: 1.63;
-        margin-bottom: 2.188vw;
+        font-size: 14px; /*2.307vh 22px*/
+        width: 295px;
+        line-height: 1.42;
+        margin: 10px 0 0 0 ;
         font-weight: 400;
     }
     .section-one-content button {
-        margin-left: 0;
+        margin: 30px 0 0 0;
     }
+
+    .btn-mob {
+        border: none;
+        background: none;
+        box-shadow: none;
+        padding: 0 0 0 20px;
+        color: var(--primary);
+    }
+
     .section-one__rating p {
-        font-size: 1.146vw;
-        margin-bottom: 0.521vw;
-        font-weight: 400;
+        width: 300px;
+        font-size: 14px;
+        margin-top:16px;
+        font-weight: 500;
     
     }
     .stars{
         padding: 0 1.042vw;
     }
     .stars img{
-        width: 1.667vw;
-        height: 1.51vw;
+        position: relative;
+        top: 3px;
+        width: 19px;
+        height: 18px;
+    }
+    .section-one-content__gr{
+        font-size: 12px;
+        font-weight: 400;
     }
     /*Section One Content End*/
     
     /*Section One Images*/
     .section-one__images{
-        flex: 0 0 39.323vw;
-        order: 2;
+        flex: 0 0 280px;
+        width: 280px;
+        height: 290px;
+        order: 1;
     }
     
     .section-one-image__purple{
-        width: 17.708vw;
-        height: 18.49vw;
+        width: 127px;
+        height: 132px;
         margin-right: auto;
         margin-top: auto;
         background: var(--quote);
         opacity: 0.3;
-        border-radius: 0 3.542vw;
+        border-radius: 0 38px;
     }
     .section-one-image__bottles{
         position: relative;
-        left: 6.25vw;
-        bottom: 13.021vw;
+        left: 45px;
+        bottom: 94px;
         
         background-image: url('../images/bottles.png');
         background-size: cover;
         background-position: center center;
-        width: 25vw;
-        height: 26.042vw;
-        border-radius: 0 3.542vw;
+        width: 176px;
+        height: 188px;
+        border-radius: 0 38px;
     }
     .section-one-image__greenquote{
         position: relative;
-        left: 9.375vw;
-        bottom: 19.01vw;
+        margin: 0;
+        left: 60px;
+        bottom:130px ;
         line-height: 1.6;
-        width: 23.438vw;
-        height: 8.333vw;
+        width: 213px;
+        height: 90px;
         background: #289976 0% 0% no-repeat padding-box;
         box-shadow: 3px 5px 20px #2899763B;
-        border-radius: 3.906vw 0;
+        border-radius: 40px 0;
         opacity: 1;
         color:#FFFFFF;
-        font-weight: 500;
-        font-size: 1.146vw;
-        padding: 1.667vw 2.5vw 0 2.5vw;
+        font-weight: medium !important;
+        line-height: 1.8;
+        font-size: 12px;
+        padding: 10px 0px 0px 15px;
     }
     .section-one-author-quote{
-        width: 20.833vw;
-        margin: 0;
+
+        padding: 0;
+        width: 187px;
+        margin:  0;
     }
     .section-one-author{
-        font-weight: 400;
+        width: 187px;
+        font-weight: regular;
         text-align: right;
         margin: 0;
+    }
+    .section-one-image__purpledots {
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        top: 90px;
+    }
+    .section-one-image__greendots7 {
+        display: none;
     }
     /*Section One Images End*/
     /*End Section One*/
