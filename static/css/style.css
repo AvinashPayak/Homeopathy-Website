@@ -4,7 +4,7 @@
     --shadow: 6px 10px 30px #2899763B;
     --quote: #5C19B3;
 }
-
+@media(min-width:620px){
 html {
     font-family: 'Montserrat', sans-serif;
 }
@@ -964,7 +964,7 @@ footer {
     color: white;
 }
 /*Footer End*/
-
+}
 @media only screen and (max-width: 640px) and (orientation: portrait) 
     /* portrait phones */{
 html {
@@ -1288,53 +1288,72 @@ header {
     
     .section-two {
         text-align: center;
-        padding: 0 3.646vw;
+        margin: 90px 14px 0 14px;
+        width: 100%;
+    }
+    .section-two h1 {
+        font-size: 21px;
+        margin-bottom: 0;
     }
     .section-two__cards{
+        overflow-x: scroll;
         display: flex;
         justify-content: space-between;
-        margin-bottom: 12.25vw;
+        margin:0;
     }
     .section-two__card{
+        margin: 36px 14px;
         text-align: left;
-        padding: 1.927vw 0.885vw;
-        float: 0 0 29.844vw;
-        height: 20.833vw;
+        padding: 15px 7px;
+        flex: 1;
+        min-width: 245px;
+        height: auto;
         box-shadow: 3px 5px 20px #00000029;
         vertical-align: middle;
     }
     .section-two__card img {
-        height: 2.135vw;
-        width: 2.135vw;
+        height: 23px;
+        width: 23px;
         border-radius: 50%;
         vertical-align: middle;
     }
     .name {
-        font-size: 1.563vw;
+        font-size: 17px;
         font-weight: 500;
-        padding: 0 0.521vw;
+        padding: 0;
         margin: 0;
         color: var(--dark);
         display: inline-block;
         vertical-align: middle;
     }
     .section-two__card span{
-        padding: 1.563vw 0;
+        margin-top: 0px;
+        margin-top: 5px;
+        padding: 0;
         display: block;
     }
+    .section-two__card span img {
+        height: 18px;
+        width: 19px;
+    }
     .section-two__card p {
-        font-size: 1.563vw;
+        font-size: 16px;
+        padding-top: 22px;
         line-height: 1.6;
         color: var(--dark);
         margin: 0;
-        width: 27.031vw;
+        width: 100%;
+    }
+    .section-two .quote {
+        margin: 0;
+        margin-top: 54px;
     }
     /* Section Two End*/
     
     /* Section Three Start*/
     .section-three{
-        padding: 8.073vw;
-        margin-bottom: -20.833vw;
+        padding:0;
+        margin:90px 0 0 0;
     }
     .section-three-flex{
         display: flex;
