@@ -413,6 +413,16 @@ img {
     z-index: -1;
      opacity: 1;
 }
+.section-three-image__greendots {
+    position: absolute;
+    top: 148vw;
+    left: 7.1vw;
+    width: 10.417vw;
+    height: 10.418vw;
+    z-index: -1;
+    opacity: 1;
+}
+  
 /* Section Three End*/
 /* Section Four Start*/
 .section-four{
@@ -537,6 +547,24 @@ margin-bottom: 0;
     height: 10.418vw;
     z-index: 1;
     opacity: 0.5;
+}
+.section-four-image__greendotstwo {
+    position: absolute;
+    top: 230vw;
+    left: -4vw;
+    width: 10.417vw;
+    height: 10.418vw;
+    z-index: 1;
+    opacity: 1;
+}
+.section-four-image__purpledots{
+    position: absolute;
+    top: 329vw;
+    left: -4.2vw;
+    width: 11vw;
+    height: 15vw;
+    z-index: 1;
+    opacity: 0.8;
 }
 /* Section Four End*/
 /* Section Five Start*/
@@ -887,7 +915,14 @@ margin-bottom: 0;
     height: 18.49vw;
     opacity: 0.3;
 }
-
+.section-ten__purpledots{
+    position: absolute;
+    top: 16.5vw;
+    right: 5vw;
+    width: 10vw;
+    height: 12vw;
+    z-index: -1;
+}
 /* Section Ten End*/
 /* Section Eleven */
 .section-eleven{
@@ -1503,6 +1538,16 @@ header {
 .section-three-image__purpledots {
     display: none;
 }
+.section-three-image__greendots {
+    display: none;
+    position: absolute;
+    top: 148vw;
+    left: 7.1vw;
+    width: 10.417vw;
+    height: 10.418vw;
+    z-index: -1;
+    opacity: 1;
+}
     /* Section Three End*/
     /* Section Four Start*/
     .section-four{
@@ -1624,9 +1669,29 @@ header {
     .green{
         color: var(--primary) !important;
     }
+    .section-four-image__greendotstwo {
+        display: none;
+        position: absolute;
+        top: 230vw;
+        left: -4vw;
+        width: 10.417vw;
+        height: 10.418vw;
+        z-index: 1;
+        opacity: 1;
+    }
  .section-four-image__greendotsthree {
      display: none;
  }   
+ .section-four-image__purpledots{
+    display: none;
+    position: absolute;
+    top: 329vw;
+    left: -4.2vw;
+    width: 11vw;
+    height: 15vw;
+    z-index: 1;
+    opacity: 0.8;
+}
     /* Section Four End*/
     /* Section Five Start*/
     .section-five{
@@ -2019,7 +2084,15 @@ header {
         height: 139px;
         opacity: 0.3;
     }
-    
+.section-ten__purpledots{
+    display: none;
+    position: absolute;
+    top: 16.5vw;
+    right: 5vw;
+    width: 10vw;
+    height: 12vw;
+    z-index: -1;
+}
     /* Section Ten End*/
     /* Section Eleven */
     .section-eleven{
