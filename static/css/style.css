@@ -990,6 +990,9 @@ body {
 ul {
     padding: 0;
     margin: 0;
+}
+p{
+    margin: 0;
 }    
 a {
     text-decoration: none;
@@ -1316,7 +1319,7 @@ header {
         overflow-x: scroll;
         display: flex;
         justify-content: space-between;
-        margin:0;
+        margin:0 0 0 14px;
     }
     .section-two__card{
         margin: 36px 14px;
@@ -1370,73 +1373,86 @@ header {
     /* Section Three Start*/
     .section-three{
         padding:0;
-        margin:90px 0 0 0;
+        margin:90px 14px 0 14px;
     }
     .section-three-flex{
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
     
     }
     .section-three-images{
-        flex: 0 0 37.5vw;
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+        width: 263px;
+        height: 276px;
     }
     .section-three-image__purple{
+        width: 127px;
+        height: 132px;
+        margin-right: auto;
+        margin-top: auto;
         background: var(--quote);
-        border-radius: 0 3.542vw;
-        width: 17.708vw;
-        height: 18.49vw;
-        opacity: 0.4;
+        opacity: 0.3;
+        border-radius: 0 38px;
     
     }
     .section-three-image__doctor{
         position: relative;
-        bottom: 13.021vw;
-        left: 6.25vw;
+        left: 45px;
+        bottom: 94px;
+        background-size: cover;
+        background-position: center center;
+        width: 176px;
+        height: 188px;
+        border-radius: 0 38px;
         background: url('../images/doctor.png');
         background-size: cover;
         background-position: left top;
-        width: 25vw;
-        height: 26.042vw;
-        z-index: 1;
-        border-radius: 0 3.542vw;
     }
     .section-three-image__green{
         position: relative;
-        bottom: 26.042vw;
+        bottom: 185px;
+        left: 135px;
+        width: 127px;
+        height: 132px;
+        margin-right: auto;
+        margin-top: auto;
         z-index: -1;
-        margin-left: auto;
         background: var(--primary);
-        border-radius: 0 3.542vw;
-        width: 17.708vw;
-        height: 18.49vw;
-        opacity: 0.4;
+        opacity: 0.3;
+        border-radius: 0 38px;
+    }
+    .section-three h1 {
+        
     }
     
-    
     .section-three-content{
-        flex: 0 0 33.28vw;
-        padding-top: 200px;
+        padding-top: 0;
     }
     .section-three-content h1 {
         color: var(--primary);
+        margin: 20px 0 0 0;
+        font-size: 25px;
     }
     .section-three-content p {
-        width: 37.25vw;
-        font-size: 1.146vw;
+        margin-top: 10px;
+        width: 100%;
+        font-size: 14px;
         font-weight: 400;
         color: var(--dark);
     }
     .section-three-content button{
-        margin-left: 0;
-        margin-right: 0;
-        padding:1.198vw 4.167vw;
+        margin: 30px 0 0 0;
+        padding:16px 44px;
     }
     /* Section Three End*/
     /* Section Four Start*/
     .section-four{
         background: #FDF8F5;
         text-align: center;
-        padding: 0 10.938vw 10.417vw 10.938vw;
+        margin: 100px 0 0 0;
+        padding-top: 50px;
     }
     .section-four-content-one{
         text-align: center;
