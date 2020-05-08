@@ -1629,48 +1629,51 @@ header {
     /* Section Four End*/
     /* Section Five Start*/
     .section-five{
-        
+        margin: 100px 14px 0 14px;
         padding:0;
     }
     .section-five-content p{
-        width: 40.104vw;
-        font-size: 1.094vw;
+        font-size: 14px;
         font-weight: 400;
         color: var(--dark);
     }
     .section-five__cards{
+        margin-top: 30px;
         text-align: center;
-        padding: 4.115vw 4.688vw;
+        display: flex;
+        flex-wrap: wrap;
     }
     
-    .section-five-fb1{
+    /* .section-five-fb1{
         width: 72.917vw;
         display: flex;
         padding-bottom: 2.604vw;
     }
     .section-five-fb2{
         display: flex;
-    }
+    } */
     .section-five__card img {
-        width: 6.875vw;
+        width: 120px;
+        height: 60px;
     }
     .section-five__card{
         flex: 1;
     }
     .section-five-caption{
         margin-left: auto;
-        font-size: 1.56vw;
+        font-size: 14px;
         font-weight: 500;
         color: var(--dark);
     }
     .section-five__cards button{
-        padding: 1.198vw 4.167vw;
-        margin-top: 4.167vw;
-        margin-bottom: 9.375vw;
-    }
+        margin: 0 auto;
+        padding: 16px 48px;
+        margin-top: 30px;
+}
     .section-five .quote {
-        font-size: 3.24vh; /*1.823vw*/
-        line-height: 1.1;
+        margin-top: 90px;
+        font-size: 18px;
+        line-height: 1.6;
     }
     /* Section Five End*/
     
