@@ -1641,8 +1641,8 @@ header {
     .section-five__cards{
         margin-top: 30px;
         text-align: center;
-        display: flex;
         flex-wrap: wrap;
+        display: flex;
     }
     
     /* .section-five-fb1{
@@ -1654,10 +1654,11 @@ header {
         display: flex;
     } */
     .section-five__card img {
-        width: 120px;
+        width: 150px;
         height: 60px;
     }
     .section-five__card{
+        margin: 30px 0;
         flex: 1;
     }
     .section-five-caption{
@@ -1666,7 +1667,8 @@ header {
         font-weight: 500;
         color: var(--dark);
     }
-    .section-five__cards button{
+    .section-five button{
+        display: flex;
         margin: 0 auto;
         padding: 16px 48px;
         margin-top: 30px;
@@ -1698,8 +1700,8 @@ header {
         justify-content: space-between;
     }
     .section-six__card{
-        min-width: 244px;
-        padding: 10px;
+        min-width: 234px;
+        padding: 10px 55px;
         height: auto;
     }
     .section-six__card h3{
@@ -1738,23 +1740,23 @@ header {
         position: relative;
         width: 100%;
         padding: 0 auto;
-        height: 75px; /*should be the same height as the images*/
+        height: 120px; /*should be the same height as the images*/
       }
       
       .img-comp-img {
         position: absolute;
-        left: 25%;
-        width: 113px;
-        height: 75px;
+        left: 9%;
+        width: 200px;
+        height: 120px;
         overflow:hidden;
       }
     
     
       .img-comp-img img {
         display:absolute;
-        left: 25%;
-        width: 113px;
-        height: 75px;
+        left: 9%;
+        width: 200px;
+        height: 120px;
       }
       
       .img-comp-slider {
