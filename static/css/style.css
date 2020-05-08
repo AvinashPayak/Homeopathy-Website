@@ -440,6 +440,18 @@ img {
     font-weight: 400;
     color: var(--dark);
 }
+.section-four__card img:nth-child(1){
+    position: relative; 
+    right: 6.2vw;
+}
+.section-four__card img:nth-child(2){
+    position: relative; 
+    right: 5.2vw;
+}
+.section-four__card img:nth-child(3){
+    position: relative; 
+    right: 6.2vw;
+}
 
 .section-four-content-two{
     padding-top: 7.813vw;
@@ -1035,7 +1047,8 @@ img {
     font-weight: 500;
     font-family: 'Libre Baskerville', serif;
     font-size: 18px;
-    margin-bottom: 6.771vw;
+    text-align: center;
+    margin: 0 14px;
 }
     .slide-up{
         position: fixed;
@@ -1450,46 +1463,55 @@ header {
     /* Section Four Start*/
     .section-four{
         background: #FDF8F5;
-        text-align: center;
         margin: 100px 0 0 0;
         padding-top: 50px;
     }
     .section-four-content-one{
         text-align: center;
-        padding-bottom: 5.990vw;
+        padding: 0 14px;
     }
     .section-four-content-one h1 {
-        margin-bottom: 1.042vw;
+        text-align: left;
+        line-height: 1.4;
     }
     .section-four-content-one p{
-        width: 31.25vw;
-        font-size: 1.146vw;
+        width: 100%;
+        font-size: 14px;
+        text-align: left;
         font-weight: 400;
         margin: auto;
     }
     .section-four__cards{
-        padding-bottom: 16.406vw;
         display: flex;
-        justify-content: space-between;
+        margin: 0 30px;
+        flex-direction: column;
+        align-items: center;
     }
     .section-four__card{
         background: white;
-        padding: 2.396vw 1.563vw;
-        flex: 0 0 18.229vw;
+        padding: 20px;
+        width: 220px;
+        height: auto;
+        margin: 30px 0;
         box-shadow: 3px 5px 20px #00000029;
+    }
+    .section-four__card img {
+        position: static;
+        height: 60px;
+        width: auto;
     }
     
     .section-four__card h3{
-        font-size: 2.083vw;
+        font-size: 18px;
         color: var(--dark);
         text-align: left;
-        width: 13.542vw;
+        width: 100%;
         font-weight: 500;
     }
     .section-four__card p{
         text-align: left;
-        font-size: 1.146vw;
-        width: 17.188vw;
+        font-size: 14px;
+        width: 100%;
         font-weight: 400;
         color: var(--dark);
     }
