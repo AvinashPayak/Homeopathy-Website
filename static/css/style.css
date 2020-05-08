@@ -1124,7 +1124,7 @@ img {
     text-align: center;
     font-style: italic;
     padding: 0;
-    margin: 0 0px;
+    margin: 0 14px ;
 }
     .slide-up{
         position: fixed;
@@ -1397,18 +1397,19 @@ header {
     
     .section-two {
         text-align: center;
-        margin: 90px 14px 0 14px;
+        margin: 90px 0 0 14px;
         width: 100%;
     }
     .section-two h1 {
         font-size: 21px;
         margin-bottom: 0;
+        margin-right: 14px;
     }
     .section-two__cards{
         overflow-x: scroll;
         display: flex;
         justify-content: space-between;
-        margin:0 0 0 14px;
+        margin:0 0 0 ;
     }
     .section-two__card{
         margin: 36px 14px;
@@ -1436,7 +1437,6 @@ header {
         vertical-align: middle;
     }
     .section-two__card span{
-        margin-top: 0px;
         margin-top: 5px;
         padding: 0;
         display: block;
@@ -1454,7 +1454,9 @@ header {
         width: 100%;
     }
     .section-two .quote {
-        margin: 0;
+        padding-left: 0;
+        margin-left: 0;
+        margin-right: 25px;
         margin-top: 54px;
     }
     /* Section Two End*/
