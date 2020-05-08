@@ -2023,17 +2023,19 @@ header {
     /* Section Ten End*/
     /* Section Eleven */
     .section-eleven{
-        padding: 1.042vw  5.208vw 5.208vw 5.208vw;
+        margin: 90px 14px 0 14px;
     }
     .section-eleven__cards{
         display: flex;
-        justify-content: space-between;
+        overflow-x: scroll;
     }
     .section-eleven__card{
-        flex: 0 0 26.698vw;
+        width: 236px;
+        height: auto;
+        margin: 30px 14px;
+        margin-right: 14px;
         box-shadow: 3px 5px 20px #9797973B;
-        border-radius: 0.521vw;
-        margin-bottom: 4.688vw;
+        border-radius: 15px;
     
     }
     .section-eleven-card-image{
@@ -2041,29 +2043,30 @@ header {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        border-radius: 0.521vw 0.521vw 0 0;
-        width: 26.698vw;
-        height: 16.302vw;
+        border-radius: 15px 15px 0 0;
+        width: 236px;
+        height: 134px;
     }
     .section-eleven-card-content{
-        padding: 3.021vw 2.5vw 1.563vw 1.979vw;
+        padding: 20px 15px 8px 15px;
     }
     .section-eleven-heading{
-        font-size: 1.146vw;
+        font-size: 14px;
         line-height: 1.6;
         color: #10182F;
         font-weight: 500;
     }
     .section-eleven-desc{
-        font-size: 0.938vw;
+        margin-top: 10px;
+        font-size: 12px;
         line-height: 1.22;
         color: #10182F;
         font-weight: 400;
-        padding-bottom: 1.563vw;
     }
     .section-eleven-date{
         color: #545D7A;
-        font-size: 1.146vw;
+        margin-top: 10px;
+        font-size: 9px;
         font-weight: 400;
     }
     .section-eleven-badge h2{
@@ -2072,15 +2075,16 @@ header {
     }
     .section-eleven-badge{
         position: relative;
-        bottom: 1.563vw;
-        font-size: 0.781vw;
-        padding: 0.26vw 1.198vw;
-        width: 4.167vw;
-        border-radius: 0.469vw;
+        font-size: 7px;
+        text-align: center;
+        padding: 2px 7px;
+        width: 50px;
+        border-radius: 9px;
         color: white;
         background: #996ADC;
     }
     .section-eleven button{
+        display: none;
         position: relative;
         left: 36.458vw;
         padding: 1.198vw 4.271vw;
@@ -2088,7 +2092,7 @@ header {
     /* Section Eleven End*/
     /* Section Twelve Start*/
     .section-twelve{
-        padding: 1.042vw 6.25vw 5.208vw 6.25vw;
+        margin-top: 90px;
     
         
     }
