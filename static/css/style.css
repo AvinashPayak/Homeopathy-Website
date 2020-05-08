@@ -1936,80 +1936,87 @@ header {
         font-weight: 600;
         color: var(--primary);
     }
+    .section-nine-button .btn {
+        padding: 16px 18px;
+    }
     /* Section Nine End*/
     /* Section Ten */
+    .section-ten {
+        margin-top: 90px;
+    }
     .section-ten h1 {
         font-weight: 700;
     }
-    .section-ten{
-        padding:4.531vw 3.49vw 0 6.094vw;
-        margin-bottom: -15.625vw;
-        position: relative;
-    }
+   
     
     .section-ten-flex {
         display: flex;
+        flex-direction: column;
         justify-content: space-between;
     }
     /*Section Ten Content*/
     .section-ten-content{
-        padding-top: 7.813vw;
-        flex: 0 0 39.948vw;
-        order: 1;
+        margin: 0 14px;
+        order: 2;
     }
     .section-ten-content h1 {
-        margin: 3.646vw 0 1.302vw 0;
+    margin: 0;
+    margin-top: 32px;
     }
     
     .section-ten-content p{
         color: var(--dark);
-        font-size: 1.12vw;
-        width: 39.948vw;
-        margin-bottom: 2.188vw;
+        font-size: 14px;
+        margin-top: 10px;
         font-weight: 400;
     }
     .section-ten-content button {
-        margin-left: 0;
+        margin-top: 30px;
+        padding: 16px 20px;
     }
     
     /*Section One Content End*/
     
     /*Section One Images*/
     .section-ten__images{
+        width: 262px;
+        height: 276px;
+        margin: 0 14px;
+        margin: 0 auto;
         flex: 0 0 39.323vw;
-        order: 2;
+        order: 1;
     }
     
     .section-ten-image__purple{
-        width: 17.748vw;
-        height: 18.49vw;
+        width: 131px;
+        height: 139px;
         margin-right: auto;
         margin-top: auto;
         background: var(--quote);
         opacity: 0.3;
-        border-radius: 0 3.542vw;
+        border-radius: 0 38px;
     }
     .section-ten-image__nurse{
         position: relative;
-        left: 6.25vw;
-        bottom: 13.021vw;
+        left: 35px;
+        bottom: 100px;
         
         background-image: url('../images/nurse.png');
         background-size: cover;
         background-position: center top;
-        width: 25vw;
-        height: 26.042vw;
-        border-radius: 0 3.542vw;
+        width: 188px;
+        height: 197px;
+        border-radius: 0 38px;
     }
     .section-ten-image__green{
         position: relative;
-        bottom: 26.042vw;
+        bottom: 200px;
         z-index: -1;
         margin-left: auto;
         background: var(--primary);
-        border-radius: 0 3.542vw;
-        width: 17.748vw;
-        height: 18.49vw;
+        border-radius: 0 38px;
+        width: 131px;
+        height: 139px;
         opacity: 0.3;
     }
     
