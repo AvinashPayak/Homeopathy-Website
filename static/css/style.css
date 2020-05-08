@@ -7,15 +7,25 @@
 @media(min-width:620px){
 html {
     font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
 }
 body {
     box-sizing: border-box ;
     line-height: 1.6;
+    padding: 0;
     margin: 0;
+    overflow-x: hidden;
     overflow: hidden;
     overflow-y: scroll;
 }
 .wrapper{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
     scroll-behavior: smooth;
 
 }
@@ -394,6 +404,15 @@ img {
     margin-right: 0;
     padding:1.198vw 4.167vw;
 }
+.section-three-image__purpledots{
+    position: absolute;
+    top: 166vw;
+    right: -4vw;
+    width: 10.417vw;
+    height: 10.418vw;
+    z-index: -1;
+     opacity: 1;
+}
 /* Section Three End*/
 /* Section Four Start*/
 .section-four{
@@ -509,6 +528,15 @@ margin-bottom: 0;
 }
 .green{
     color: var(--primary) !important;
+}
+.section-four-image__greendotsthree {
+    position: absolute;
+    top: 270vw;
+    right: -4.5vw;
+    width: 10.417vw;
+    height: 10.418vw;
+    z-index: 1;
+    opacity: 0.5;
 }
 /* Section Four End*/
 /* Section Five Start*/
@@ -981,15 +1009,26 @@ footer {
     /* portrait phones */{
 html {
         font-family: 'Montserrat', sans-serif;
-        width: 100%;
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
         height: 100%;
         box-sizing: border-box;
 
 }
+main {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100%;
+}
 body {
     line-height: 1.6;
+    padding: 0;
     margin: 0;
-    width: 100%;
+    width: 100vw;
     height: 100%;
     overflow-x: hidden;
     overflow-y: hidden;
@@ -1048,7 +1087,8 @@ img {
     font-family: 'Libre Baskerville', serif;
     font-size: 18px;
     text-align: center;
-    margin: 0 14px;
+    padding: 0;
+    margin: 0 0px;
 }
     .slide-up{
         position: fixed;
@@ -1459,12 +1499,16 @@ header {
         margin: 30px 0 0 0;
         padding:16px 44px;
     }
+.section-three-image__purpledots {
+    display: none;
+}
     /* Section Three End*/
     /* Section Four Start*/
     .section-four{
         background: #FDF8F5;
         margin: 100px 0 0 0;
         padding-top: 50px;
+        padding-bottom: 40px;
     }
     .section-four-content-one{
         text-align: center;
@@ -1515,68 +1559,78 @@ header {
         font-weight: 400;
         color: var(--dark);
     }
-    
-    .section-four-content-two{
-        padding-top: 7.813vw;
-        width: 44.792vw;
+    .section-four .quote{
+        margin-top: 60px;
+        margin-right: 14px;
     }
-    .section-four-content-two h1 {
+.section-four-content-two{
+    margin: 0 14px;
+    margin-top: 90px;
+    width: 100%;
+}
+.section-four-content-two h1 {
         text-align: left;
-        margin-bottom: 1.563vw;
-        width: 50vw;
-    }
-    .section-four-content-two p {
+}
+.section-four-content-two p {
         text-align: left;
-        font-size: 1.146vw;
-        width: 41.667vw;
+        margin-right: 14px;
+        font-size: 14px;
         font-weight: 500;
-    }
-    
-    .comparison-head-flex{
-        display: flex;
-    }
+}
+
+.comparison-head-flex{
+    display: flex;
+}
+
     .comparison-head-flex h3{
     flex: 1;
     color: var(--dark);
-    font-size: 2.083vw;
+    font-size: 14px;
+    margin-right: 14px;
     font-weight: 500;
     margin-bottom: 0;
     }
-    .comparison-space{
-        flex:2;
-    }
+.comparison-space{
+    flex:1.5;
+}
     
-    .section-four-comparison__card{
-        display: flex;
-        background:white;
-        box-shadow: 3px 5px 20px #00000029;
-        text-align: left;
-        padding: 2.604vw 3.333vw;
-        margin: 2.604vw 0;
-        border-radius: 1.302vw;
+.section-four-comparison__card{
+    display: flex;
+    background:white;
+    box-shadow: 3px 5px 20px #00000029;
+    text-align: left;
+    padding: 20px 10px;
+    margin:15px 14px 21px 14px;
+    border-radius: 5px;
         
-    }
+}
     .section-four-comparison__card h2 {
-        flex: 2;
+        flex: 1.5;
         display: inline-block;
         color: var(--dark);
         font-weight: 500;
-        font-size: 2.083vw;
+        font-size: 14px;
     }
     .section-four-comparison__card h3 {
         flex: 1;
         display: inline-block;
         font-weight: 500;
+        align-items: flex-start;
+        margin-right: 10px;
         color: var(--dark);
-        font-size: 2.083vw;
+        font-size: 14px;
     }
     .green{
         color: var(--primary) !important;
     }
+ .section-four-image__greendotsthree {
+     display: none;
+ }   
     /* Section Four End*/
     /* Section Five Start*/
     .section-five{
-        padding: 2.604vw 5.635vw 10.417vw 10.938vw;
+        
+        padding:0;
     }
     .section-five-content p{
         width: 40.104vw;
