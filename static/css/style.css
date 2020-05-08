@@ -1774,124 +1774,145 @@ header {
     
     /* Section Seven*/
     .section-seven{
-        padding: 5.208vw 5.208vw 5.208vw 7.3vw;
+        margin: 90px 14px 0 14px;
     }
     .section-seven-content p{
-        width: 39.948vw;
+        margin-top: 10px;
         line-height: 1.6;
         color: var(--dark);
-        font-size: 1.094vw;
+        font-size: 14px;
         font-weight: 400;
     }
     .section-seven-content h1{
-        margin-bottom: 1.042vw;
+        font-size: 21px;
+        margin: 0;
         font-weight: 700;
     }
     .section-seven-flex{
-        display: flex;
-        margin-top: 5.208vw;
     }
     .badge{
+        display: none;
         flex: 1;
         width: 26.563vw;
     }
-    .badge p{
+    /* .badge p{
         position: relative;
         font-size: 1.563vw;
         color: white;
         font-weight: 500;
         bottom: 13.021vw;
         left: 7.292vw;
-    }
+    } */
     .section-seven__cards{
-        flex: 1;
+        display: flex;
+        flex-wrap: wrap;
         text-align: center;
-        width: 47.396vw;
+        width: 100%;
     }
-    .section-seven-fb1{
-        display: flex;
-        margin-bottom:5.208vw ;
-    }
-    .section-seven-fb2{
-        display: flex;
-    }
+    
+    
     .section-seven__card img {
-        width: 6.875vw;
+        width: 120px;
+
     }
     .section-seven__card{
-        font-size: 1.2vw;
+        margin: 40px 0;
+        width: 150px;
+        height: 100px;
+        font-size: 14px;
         color: var(--dark);
         font-weight: 500;
         flex: 1;
     }
     
     .section-seven button {
-        position: relative;
-        left: 58.854vw;
-        padding: 1.198vw 4.688vw;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: 30px;
+        padding: 16px 56px;
     }
     /* Section Seven End*/
     
     /* Section Eight Start*/
     .section-eight{
-        padding: 0vw 2.604vw 5.208vw 6.771vw;
+        margin: 90px 14px 0 14px;
+    }
+    .section-eight h1 {
+        margin-top: 0;
     }
     .section-eight-flex{
         display: flex;
+        overflow-x: scroll;
         justify-content: space-between;
     }
     .large-img{
-        flex: 0 0 31.25vw;
     }
     .large-img img{
-        width: 26.458vw;
-        height: 39.635vw;
-        border-radius: 2.083vw;
+        width: 233px;
+        height: 296px;
+        border-radius: 15px;
     
     }
-    .small-img{
-        flex: 0 0 29vw;
+
+    .small-image-flex {
+        display: flex;
     }
-    .small-img img{
-        width: 25vw;
-        border-radius: 2.083vw;
-        margin-bottom: 5.99vw;
-    
+    .small-img1{
+        flex: 1;
     }
+    .small-img2{
+        flex: 1;
+    }
+    .small-img1 img{
+        width: 200px;
+        height: 120px;
+        margin: 50px;
+        margin-top: 0;
+        border-radius: 15px;
+    }
+    .small-img2 img{
+        width: 200px;
+        height: 120px;
+        margin: 50px;
+        margin-top: 0;
+        border-radius: 15px;
+    }
+
     
     
     /* Section Eight End*/
     /* Section Nine  Start*/
     .section-nine{
-        background: url('../images/india.svg');
+        background: #FDF8F5;
         text-align: center;
-        padding: 5.208vw 7.813vw 15.625vw 7.813vw;
+        margin-top: 90px;
+        padding: 0 30px;
+        
     }
     .section-nine  h1{
+    padding-top: 20px;
      font-weight: 700;
     }
     .section-nine-flex{
-        justify-content: space-between;
-        display: flex;
     }
     .section-nine-space{
-        flex: 1;
     }
     .section-nine__cities{
-        margin-top: 7.292vw;
-        flex:  0 0 62.5vw;
+        margin-top: 35px;
     }
     .city1to3{
-        display: flex;
+        display: none;
         justify-content: space-between;
     }
     .city4to6{
-        display: flex;
+        display: none;
         justify-content: space-between;
     }
     .city7to9{
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
     }
     .section-nine__city{
         margin-bottom: 3.75vw;
@@ -1900,18 +1921,18 @@ header {
         flex: 0 0 17.396vw;
     }
     .section-nine-location{
-        font-size: 1.146vw;
+        font-size: 14px;
         font-weight: 500;
         color: #425162;
     }
     .section-nine-address{
-        font-size: 1.042vw;
+        font-size: 12px;
         line-height: 1.6;
         font-weight: 400;
         color: #425162;
     }
     .section-nine-direction{
-        font-size: 1.146vw;
+        font-size: 12px;
         font-weight: 600;
         color: var(--primary);
     }
