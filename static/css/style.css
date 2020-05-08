@@ -1087,6 +1087,7 @@ img {
     font-family: 'Libre Baskerville', serif;
     font-size: 18px;
     text-align: center;
+    font-style: italic;
     padding: 0;
     margin: 0 0px;
 }
@@ -1679,79 +1680,88 @@ header {
     
     /* Section Six*/
     .section-six{
-        background: #FDF8F5;
-        padding: 5.208vw 4.688vw;
-        text-align: center;
+    background: #FDF8F5;
+    margin-top: 90px;
+    padding: 0 14px 90px 0;
+    text-align: center;
     }
-    .section-six h1 {
-        font-size: 2.344vw;
-        font-weight: 700;
-    }
+.section-six h1 {
+    padding-top: 21px;
+    margin: 0;
+    font-size: 21px;
+    font-weight: 700;
+}
     .section-six__cards{
         display: flex;
+        overflow-x: scroll;
+        justify-content: center;
         justify-content: space-between;
     }
     .section-six__card{
-        flex: 0 0 28.646vw;
+        min-width: 244px;
+        padding: 10px;
+        height: auto;
     }
     .section-six__card h3{
         color: var(--dark);
-        font-size: 2.083vw;
+        font-size: 21px;
         font-weight: 500;
         padding: 0.26vw 0;
         margin-bottom: 0px;
     }
     .section-six__card h6 {
-        margin: 1.02vw;
         margin-top: 0;
         font-weight: 400;
         line-height: 1.57;
-        font-size: 1.146vw;
+        font-size: 16px;
+        margin-bottom: 0;
         color: var(--dark);
     }
     .section-six__card span{
-        width: 1.51vw;
-        height: 1.667vw;
+        width: 24px;
+        height: 22px;
     }
     .section-six__card p{
         overflow-y: hidden;
+        font-family: 'Libre Baskerville', serif;
         overflow-y: scroll;
-        height: 10vw;
-        font-size: 1.8vw;
+        height: 126px;
+        font-size: 16px;
     }
     /*section six slider image before after*/
     .section-six__ba-images {
+        margin-top: 15px;
         width: 100%;
         text-align: center;
     }
     .img-comp-container {
         position: relative;
-        left: 7.813vw;
-        height: 10.417vw; /*should be the same height as the images*/
+        width: 100%;
+        padding: 0 auto;
+        height: 75px; /*should be the same height as the images*/
       }
       
       .img-comp-img {
         position: absolute;
-        width: auto;
-        height: auto;
+        left: 25%;
+        width: 113px;
+        height: 75px;
         overflow:hidden;
       }
     
     
       .img-comp-img img {
-        display:block;
-        vertical-align:middle;
-        width: 15.625vw;
-        height: 10.417vw;
+        display:absolute;
+        left: 25%;
+        width: 113px;
+        height: 75px;
       }
       
       .img-comp-slider {
-        position: absolute;
+        position: relative;
         z-index:9;
         cursor: ew-resize;
         /*set the appearance of the slider:*/
-        width: 2vw;
-        height: 2vw;
         background-color:lightgray;
         opacity: 0.9;
         border-radius: 50%;
