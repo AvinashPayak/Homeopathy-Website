@@ -867,6 +867,9 @@ margin-bottom: 0;
     font-weight: 600;
     color: var(--primary);
 }
+.section-nine-button {
+    display: none;
+}
 /* Section Nine End*/
 /* Section Ten */
 .section-ten h1 {
@@ -1024,21 +1027,25 @@ margin-bottom: 0;
     
 }
 .section-twelve__questions{
+    display: flex;
+    flex-wrap: wrap;
     padding-top:2.604vw;
 }
-.section-twelve-fb1{
+/* .section-twelve-fb1{
 display: flex;
 justify-content: space-between;
 }
 .section-twelve-fb2{
     display: flex;
     justify-content: space-between;
-}
-.section-twelve-fb3{
+} */
+/* .section-twelve-fb3{
     display: flex;
     justify-content: space-between;
-}
+} */
 .section-twelve__question{
+    margin: 0 0.781vw;
+    cursor: pointer;
     flex: 0 0 39.063vw;
     border: 1px #707070 solid;
     padding: 2.344vw 1.146vw 2.344vw 1.146vw;
