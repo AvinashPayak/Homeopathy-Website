@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&display=swap" rel="stylesheet">    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../static/css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 
     <!-- Scripts-->
     <script src="../static/scripts/imageba.js"></script>
@@ -38,6 +40,23 @@
 
         <div class="main-nav">
             <div class="logo"><img src="../static/images/logo.svg" alt="logo"></div>
+            <ul class="main-nav__items">
+                <li class="main-nav__item"> <a href="#home">Home</a></li>
+                <li class="main-nav__item"><a href="#doc">Dr Ashok Sharma </a></li>
+                <li class="main-nav__item"><a href="#whyhomeo"> Why Homeopathy? </a></li>
+                <li class="main-nav__item"><a href="#testimonials">Testimonials</a></li>
+                <li class="main-nav__item"><a href="#diseases">Diseases</a></li>
+                <li class="main-nav__item"><a href="#gallery">Gallery</a></li>
+                <li class="main-nav__item"><a href="#blog">Blog</a></li>
+                <li class="main-nav__item"><a href="#faq">FAQ</a></li>
+                <li class="main-nav__item nav-item-ctn" onclick="loremipsun()">Book an Appointment</li>
+            </ul>
+        </div>
+        <div class="sidenav-btn">
+            <button class="btn" onclick="openNav()"><i class="material-icons">menu</i></button>
+        </div>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <ul class="main-nav__items">
                 <li class="main-nav__item"> <a href="#home">Home</a></li>
                 <li class="main-nav__item"><a href="#doc">Dr Ashok Sharma </a></li>
@@ -631,6 +650,19 @@ $(document).ready(function(){
 <script>
     /*Execute a function that will execute an image compare function for each element with the img-comp-overlay class:*/
     initComparisons();
+    </script>
+
+    <script>
+        /* Set the width of the side navigation to 250px */
+function openNav() {
+  document.getElementById("mySidenav").style.width = "300px";
+}
+
+/* Set the width of the side navigation to 0 */
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+
+}
     </script>
 </body>
 

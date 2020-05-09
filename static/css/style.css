@@ -50,6 +50,7 @@ h1{
     font-size: 1.146vw;
     font-weight: 500;
     text-align: center;
+    cursor: pointer;
     box-shadow: var(--shadow);
 }
 .btn-ctn{
@@ -63,6 +64,9 @@ img {
     max-height:100%;
     padding: 0;
     margin: 0;
+}
+.sidenav-btn {
+    display: none;
 }
 
 .quote{
@@ -141,6 +145,9 @@ img {
 
 /*End Contact Navigation*/
 /*Main Navigation*/
+.sidenav {
+    display: none;
+}
 .main-nav{
     display: flex;
     padding: 1.042vw 4.688vw 0px 6.094vw;
@@ -502,16 +509,19 @@ img {
 
 .comparison-head-flex{
     display: flex;
+    margin-right: 30px;
 }
 .comparison-head-flex h3{
 flex: 1;
 color: var(--dark);
 font-size: 2.083vw;
 font-weight: 500;
+
+
 margin-bottom: 0;
 }
 .comparison-space{
-    flex:2;
+    flex:2.5;
 }
 
 .section-four-comparison__card{
@@ -522,10 +532,9 @@ margin-bottom: 0;
     padding: 2.604vw 3.333vw;
     margin: 2.604vw 0;
     border-radius: 1.302vw;
-    
 }
 .section-four-comparison__card h2 {
-    flex: 2;
+    flex: 3;
     display: inline-block;
     color: var(--dark);
     font-weight: 500;
@@ -1248,37 +1257,77 @@ header {
     
     /*End Contact Navigation*/
     /*Main Navigation*/
-.main-nav{
-    margin: 0;
-    padding: 0;
-    margin-top: 21px;
-    margin-left: 14px;
-    display: flex;
+
+.main-nav {
+    display: none;
+}
+.sidenav-btn .btn{
+    position: fixed;
+    right: 5px;
+    padding: 2px 5px;
+    font-family: inherit;
+    position: fixed;
+    border: none;
+    border-radius: 0;
+    color: white;
+    z-index: 2;
+    background: var(--primary);
+}
+.sidenav{
+    height: 100%; /* 100% Full-height */
+    width: 0px; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 3; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    background-color:white; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 30px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    opacity: 0.9;
 }
 .logo {
     width: 115px;
     height: 38px;
 }
-    .main-nav__items{
-        display: none;
-        margin-left: auto;
-        list-style: none;
-    }
-    .main-nav__item{
-        display: inline-block;
-        margin:0  0.625vw;
-        font-weight: 500;
-        font-size: 0.938vw;
-        color: var(--dark);
-    }
-    .nav-item-ctn{
-        background: var(--primary);
-        color: white;
-        border-radius: 2.083vw;
-        padding: 0.677vw 0.885vw;
-        text-align: center;
+.main-nav__items{
+    margin-top: 30px;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    margin-left: auto;
+    list-style: none;
+    opacity: 1;
+}
+.closebtn {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    font-size: 50px;
+    margin-left: 50px;
+  }
+.main-nav__items li:nth-child(9){
+    margin-top: 50px;
+    padding: 15px 0;
+    border-radius: 30px;
+}
+.main-nav__item{
+    padding: 20px 0;
+    display: inline-block;
+    margin:0  0.625vw;
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--dark);
+}
+
+.nav-item-ctn{
+    background: var(--primary);
+    color: white;
+    border-radius: 2.083vw;
+    padding: 0.677vw 0.885vw;
+    text-align: center;
     
-    }
+}
     /* End Main Navigation*/
     /*End Navigtion Bar*/
     
