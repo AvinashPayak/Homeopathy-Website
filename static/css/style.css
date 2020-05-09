@@ -68,6 +68,8 @@ img {
 .quote{
     color: var(--quote);
     font-weight: 500;
+    text-align: center;
+    /* font-style: italic; */
     font-size: 1.8vw;
     margin-bottom: 6.771vw;
 }
@@ -469,13 +471,13 @@ img {
     font-weight: 400;
     color: var(--dark);
 }
-.section-four__card img:nth-child(1){
+.section-four__card img:nth-of-type(1){
     position: relative; 
     right: 6.2vw;
 }
-.section-four__card img:nth-child(2){
+.charity img{
     position: relative; 
-    right: 5.2vw;
+    right: 5.2vw !important;
 }
 .section-four__card img:nth-child(3){
     position: relative; 
@@ -579,21 +581,27 @@ margin-bottom: 0;
 }
 .section-five__cards{
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
     padding: 4.115vw 4.688vw;
 }
 
-.section-five-fb1{
+/* .section-five-fb1{
     width: 72.917vw;
     display: flex;
     padding-bottom: 2.604vw;
 }
 .section-five-fb2{
     display: flex;
-}
+} */
+
 .section-five__card img {
     width: 6.875vw;
 }
 .section-five__card{
+    padding: 0 1.56vw;
+    margin: 0 3.385vw;
+    margin-bottom: 2.1vw;
     flex: 1;
 }
 .section-five-caption{
@@ -602,7 +610,9 @@ margin-bottom: 0;
     font-weight: 500;
     color: var(--dark);
 }
-.section-five__cards button{
+.section-five button{
+    position: relative;
+    left: 40%;
     padding: 1.198vw 4.167vw;
     margin-top: 4.167vw;
     margin-bottom: 9.375vw;
