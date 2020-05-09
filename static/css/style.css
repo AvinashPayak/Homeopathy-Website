@@ -1274,7 +1274,7 @@ header {
     background: var(--primary);
 }
 .sidenav{
-    height: 100%; /* 100% Full-height */
+    height: 100vh; /* 100% Full-height */
     width: 0px; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
     z-index: 3; /* Stay on top */
