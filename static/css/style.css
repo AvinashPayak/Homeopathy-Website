@@ -739,21 +739,24 @@ margin-bottom: 0;
 }
 .section-seven__cards{
     flex: 1;
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
     width: 47.396vw;
 }
-.section-seven-fb1{
+/* .section-seven-fb1{
     display: flex;
     margin-bottom:5.208vw ;
 }
 .section-seven-fb2{
     display: flex;
-}
+} */
 .section-seven__card img {
     width: 6.875vw;
 }
 .section-seven__card{
     font-size: 1.2vw;
+    margin: 0 2.1vw;
     color: var(--dark);
     font-weight: 500;
     flex: 1;
