@@ -1154,14 +1154,17 @@ img {
     padding: 0;
     margin: 0 14px ;
 }
-    .slide-up{
+.slideup{
+    display: none;
+}
+  .slide-up{
         position: fixed;
         display: none;
         right: 1.04vw;
         bottom: 1.04vw;
         height: 4.688vw;;
         width: 4.688vw;
-        z-index: 1;
+        z-index: -10;
         background: wheat;
         border-radius: 50%;
     }
