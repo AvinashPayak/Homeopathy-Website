@@ -778,7 +778,7 @@ margin-bottom: 0;
     justify-content: space-between;
 }
 .large-img{
-    flex: 0 0 31.25vw;
+    flex: 0 0 26.458vw;
 }
 .large-img img{
     width: 26.458vw;
@@ -786,15 +786,30 @@ margin-bottom: 0;
     border-radius: 2.083vw;
 
 }
-.small-img{
+.small-image-flex {
+    flex: 0 0 60vw;
+}
+.small-img1{
     flex: 0 0 29vw;
 }
-.small-img img{
-    width: 25vw;
+.small-img2{
+    flex: 0 0 29vw;
+}
+.small-img1 img{
+    width: 27vw;
+    margin-right: 2.5vw;
+    border-radius: 2.083vw;
+    margin-bottom: 3vw;
+
+}
+.small-img2 img{
+    width: 27vw;
+    margin-right:2.5vw;
     border-radius: 2.083vw;
     margin-bottom: 5.99vw;
 
 }
+
 
 
 /* Section Eight End*/
