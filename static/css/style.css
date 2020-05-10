@@ -1058,7 +1058,6 @@ margin-bottom: 0;
 .section-twelve__questions{
     display: flex;
     flex-wrap: wrap;
-    padding-top:2.604vw;
 }
 /* .section-twelve-fb1{
 display: flex;
@@ -1095,88 +1094,88 @@ justify-content: space-between;
 
 
 details {
-    width: 100%;
-    height: 150px;
-    min-height: 5px;
-    width: 800px;
-    padding: 50px 70px 50px 45px;
-    margin: 30px 10px;
-    position: relative;
-    font-size: 22px;
-    border: 1px solid rgba(0,0,0,0.5);
-    border-radius: 15px;
-    box-sizing: border-box;
-    transition: all .3s;
+    width: 100% !important;
+    height: 7.813vw !important;
+    min-height: 0.26vw !important;
+    width: 41vw !important;
+    padding: 2.6vw 3.646vw 2.6vw 2.34vw !important;
+    margin: 1.563vw 0.521vw !important;
+    position: relative !important;
+    font-size: 1.146vw !important;
+    border: 1px solid rgba(0,0,0,0.5) !important;
+    border-radius: 0.781vw !important;
+    box-sizing: border-box !important;
+    transition: all 0.3s !important;
   }
   
   details + details {
-    margin-top: 20px;
+    margin-top: 1.1vw !important;
   }
   
   details[open] {
-    height: auto;
-    background-color: white;
-    border: none;
-    box-shadow: 2px 2px 20px rgba(0,0,0,.2);
+    height: auto !important;
+    background-color: white !important;
+    border: none !important;
+    box-shadow: 2px 2px 20px rgba(0,0,0,.2) !important;
   }
   
   details p {
-    color: #10182F;
-    font-weight: 300;
+    color: #10182F !important;
+    font-weight: 400 !important;
   }
   
   summary {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-weight: 500;
-    cursor: pointer;
-    border: none;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    font-weight: 400 !important;
+    cursor: pointer !important;
+    border: none !important;
   }
   
   summary:focus {
-    outline: none;
+    outline: none !important;
   }
   
   summary::-webkit-details-marker {
-    display: none
+    display: none !important;
   }
   
   .control-icon {
-    fill: rebeccapurple;
-    transition: .3s ease;
-    pointer-events: none;
+    fill: rebeccapurple !important;
+    transition: .3s ease !important;
+    pointer-events: none !important;
   }
   
   .control-icon-close {
-    display: none;
+    display: none !important;
   }
   
   details[open] .control-icon-close {
-    display: initial;
-    transition: .3s ease;
+    display: initial !important;
+    transition: .3s ease !important;
   }
   
   details[open] .control-icon-expand {
-    display: none;
+    display: none !important;
   }
   
   details[open] summary:hover::after {
-    animation: pulse 1s ease;
+    animation: pulse 1s ease !important;
   }
   
   @keyframes pulse {
     25% {
-      transform: scale(1.1);
+      transform: scale(1.1) !important;
     }
     50% {
-      transform: scale(1);
+      transform: scale(1) !important;
     }
     75% {
-      transform: scale(1.1);
+      transform: scale(1.1) !important;
     }
     100% {
-      transform: scale(1);
+      transform: scale(1) !important;
     }
   }
 /* Section Twelve End*/
@@ -2404,7 +2403,6 @@ header {
     details {
         width: 100%;
         height: 100%;
-        min-height: 5px;
         padding: 20px 20px 20px 15px;
         margin: 10px 10px;
         position: relative;
