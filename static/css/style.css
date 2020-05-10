@@ -993,6 +993,11 @@ margin-bottom: 0;
     border-radius: 0.521vw;
     margin-bottom: 4.688vw;
 
+    transition: 0.3s ease;
+}
+.section-eleven__card:hover {
+    transform: scale(1.1);
+    box-shadow: 1px 1px 20px #9797973B;
 }
 .section-eleven-card-image{
     background: url('../images/plant.png');
@@ -1067,7 +1072,7 @@ justify-content: space-between;
     display: flex;
     justify-content: space-between;
 } */
-.section-twelve__question{
+/* .section-twelve__question{
     margin: 0 0.781vw;
     cursor: pointer;
     flex: 0 0 39.063vw;
@@ -1075,9 +1080,9 @@ justify-content: space-between;
     padding: 2.344vw 1.146vw 2.344vw 1.146vw;
     border-radius: 0.26vw;
     margin-bottom: 2.604vw;
-    height: auto; /*2.604vw*/
-}
-.section-twelve p{
+    height: auto; /*2.604vw
+} */
+/* .section-twelve p{
     font-size: 1.146vw;
     color: var(--dark);
     font-weight: 600;
@@ -1085,7 +1090,95 @@ justify-content: space-between;
     margin: 0px;
     padding: 0px;
     width: 28.646vw;
-}
+} */
+
+
+
+details {
+    width: 100%;
+    height: 150px;
+    min-height: 5px;
+    width: 800px;
+    padding: 50px 70px 50px 45px;
+    margin: 30px 10px;
+    position: relative;
+    font-size: 22px;
+    border: 1px solid rgba(0,0,0,0.5);
+    border-radius: 15px;
+    box-sizing: border-box;
+    transition: all .3s;
+  }
+  
+  details + details {
+    margin-top: 20px;
+  }
+  
+  details[open] {
+    height: auto;
+    background-color: white;
+    border: none;
+    box-shadow: 2px 2px 20px rgba(0,0,0,.2);
+  }
+  
+  details p {
+    color: #10182F;
+    font-weight: 300;
+  }
+  
+  summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+  }
+  
+  summary:focus {
+    outline: none;
+  }
+  
+  summary::-webkit-details-marker {
+    display: none
+  }
+  
+  .control-icon {
+    fill: rebeccapurple;
+    transition: .3s ease;
+    pointer-events: none;
+  }
+  
+  .control-icon-close {
+    display: none;
+  }
+  
+  details[open] .control-icon-close {
+    display: initial;
+    transition: .3s ease;
+  }
+  
+  details[open] .control-icon-expand {
+    display: none;
+  }
+  
+  details[open] summary:hover::after {
+    animation: pulse 1s ease;
+  }
+  
+  @keyframes pulse {
+    25% {
+      transform: scale(1.1);
+    }
+    50% {
+      transform: scale(1);
+    }
+    75% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
 /* Section Twelve End*/
 /*Footer*/
 footer {
