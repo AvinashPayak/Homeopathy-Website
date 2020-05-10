@@ -1140,7 +1140,7 @@ details {
   summary::-webkit-details-marker {
     display: none !important;
   }
-  
+ 
   .control-icon {
     fill: rebeccapurple !important;
     transition: .3s ease !important;
@@ -1150,7 +1150,7 @@ details {
   .control-icon-close {
     display: none !important;
   }
-  
+ 
   details[open] .control-icon-close {
     display: initial !important;
     transition: .3s ease !important;
@@ -1163,6 +1163,15 @@ details {
   details[open] summary:hover::after {
     animation: pulse 1s ease !important;
   }
+  .icon {
+    visibility: hidden !important; 
+    position: absolute !important; 
+    width: 0px !important; 
+    height: 0px !important;
+  }
+  details[open] .close-icon {
+      display: ;
+  } 
   
   @keyframes pulse {
     25% {
