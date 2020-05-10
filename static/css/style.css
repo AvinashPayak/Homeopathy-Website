@@ -320,6 +320,13 @@ img {
     height: 20.833vw;
     box-shadow: 3px 5px 20px #00000029;
     vertical-align: middle;
+
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.section-two__card:hover {
+    transform: scale(1.1);
+    box-shadow: 3px 8px 20px #00000029;
 }
 .section-two__card img {
     height: 2.135vw;
@@ -462,6 +469,14 @@ img {
     padding: 2.396vw 1.563vw;
     flex: 0 0 18.229vw;
     box-shadow: 3px 5px 20px #00000029;
+
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.section-four__card:hover {
+    transform: scale(1.1);
+    box-shadow: 3px 5px 20px #00000029;
+
 }
 
 .section-four__card h3{
@@ -1086,6 +1101,8 @@ footer {
 }
 @media only screen and (max-width: 640px) and (orientation: portrait) 
     /* portrait phones */{
+
+
 html {
         font-family: 'Montserrat', sans-serif;
         width: 100vw;
@@ -1113,6 +1130,7 @@ body {
     overflow-y: hidden;
     overflow-y: scroll;
 }
+
     /* .wrapper{
         scroll-behavior: smooth;
     
@@ -1272,6 +1290,9 @@ header {
     color: white;
     z-index: 2;
     background: var(--primary);
+}
+.body:active .sidenav-btn .btn{
+    display: none;
 }
 .sidenav{
     height: 100vh; /* 100% Full-height */
@@ -1492,22 +1513,26 @@ header {
         margin-bottom: 0;
         margin-right: 14px;
     }
-    .section-two__cards{
-        overflow-x: scroll;
-        display: flex;
-        justify-content: space-between;
-        margin:0 0 0 ;
-    }
-    .section-two__card{
-        margin: 36px 14px;
-        text-align: left;
-        padding: 15px 7px;
-        flex: 1;
-        min-width: 245px;
-        height: auto;
-        box-shadow: 3px 5px 20px #00000029;
-        vertical-align: middle;
-    }
+.section-two__cards{
+    overflow-x: scroll;
+    display: flex;
+    justify-content: space-between;
+    margin:0 0 0 ;
+}
+.section-two__cards [data-aos-offset]  {
+    offset: none !important;
+}
+
+.section-two__card{
+    margin: 36px 14px;
+    text-align: left;
+    padding: 15px 7px;
+    flex: 1;
+    min-width: 245px;
+    height: auto;
+    box-shadow: 3px 5px 20px #00000029;
+    vertical-align: middle;
+}
     .section-two__card img {
         height: 23px;
         width: 23px;
