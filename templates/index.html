@@ -12,6 +12,7 @@
 
     <!-- Scripts-->
     <script src="../static/scripts/imageba.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
     <!-- Scripts end-->
 
     <title>Homeopathy Website</title>
@@ -42,14 +43,14 @@
         <div class="main-nav">
             <div class="logo"><img src="../static/images/logo.svg" alt="logo"></div>
             <ul class="main-nav__items">
-                <li class="main-nav__item"> <a href="#home">Home</a></li>
-                <li class="main-nav__item"><a href="#doc">Dr Ashok Sharma </a></li>
-                <li class="main-nav__item"><a href="#whyhomeo"> Why Homeopathy? </a></li>
-                <li class="main-nav__item"><a href="#testimonials">Testimonials</a></li>
-                <li class="main-nav__item"><a href="#diseases">Diseases</a></li>
-                <li class="main-nav__item"><a href="#gallery">Gallery</a></li>
-                <li class="main-nav__item"><a href="#blog">Blog</a></li>
-                <li class="main-nav__item"><a href="#faq">FAQ</a></li>
+                <li class="main-nav__item"> <a data-scroll href="#home">Home</a></li>
+                <li class="main-nav__item"><a data-scroll href="#doc">Dr Ashok Sharma </a></li>
+                <li class="main-nav__item"><a data-scroll href="#whyhomeo"> Why Homeopathy? </a></li>
+                <li class="main-nav__item"><a data-scroll href="#testimonials">Testimonials</a></li>
+                <li class="main-nav__item"><a data-scroll href="#diseases">Diseases</a></li>
+                <li class="main-nav__item"><a data-scroll href="#gallery">Gallery</a></li>
+                <li class="main-nav__item"><a data-scroll href="#blog">Blog</a></li>
+                <li class="main-nav__item"><a  data-scroll href="#faq">FAQ</a></li>
                 <li class="main-nav__item nav-item-ctn" onclick="loremipsun()">Book an Appointment</li>
             </ul>
         </div>
@@ -59,14 +60,14 @@
         <div id="mySidenav" class="sidenav">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <ul class="main-nav__items">
-                <li class="main-nav__item"><a href="#home" onclick="closeNav()">Home</a></li>
-                <li class="main-nav__item"><a href="#doc" onclick="closeNav()">Dr Ashok Sharma </a></li>
-                <li class="main-nav__item"><a href="#whyhomeo" onclick="closeNav()"> Why Homeopathy? </a></li>
-                <li class="main-nav__item"><a href="#testimonials" onclick="closeNav()">Testimonials</a></li>
-                <li class="main-nav__item"><a href="#diseases" onclick="closeNav()">Diseases</a></li>
-                <li class="main-nav__item"><a href="#gallery" onclick="closeNav()">Gallery</a></li>
-                <li class="main-nav__item"><a href="#blog" onclick="closeNav()">Blog</a></li>
-                <li class="main-nav__item"><a href="#faq" onclick="closeNav()">FAQ</a></li>
+                <li class="main-nav__item"><a data-scroll href="#home" onclick="closeNav()">Home</a></li>
+                <li class="main-nav__item"><a data-scroll href="#doc" onclick="closeNav()">Dr Ashok Sharma </a></li>
+                <li class="main-nav__item"><a data-scroll href="#whyhomeo" onclick="closeNav()"> Why Homeopathy? </a></li>
+                <li class="main-nav__item"><a data-scroll href="#testimonials" onclick="closeNav()">Testimonials</a></li>
+                <li class="main-nav__item"><a data-scroll href="#diseases" onclick="closeNav()">Diseases</a></li>
+                <li class="main-nav__item"><a data-scroll href="#gallery" onclick="closeNav()">Gallery</a></li>
+                <li class="main-nav__item"><a data-scroll href="#blog" onclick="closeNav()">Blog</a></li>
+                <li class="main-nav__item"><a data-scroll href="#faq" onclick="closeNav()">FAQ</a></li>
                 <li class="main-nav__item nav-item-ctn" onclick="loremipsun()">Book an Appointment</li>
             </ul>
         </div>
@@ -680,37 +681,23 @@
     </footer>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-  // Add smooth scrolling to all links
-  $("a").on('click', function(event) {
 
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
-
-      // Store hash
-      var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
-  });
-});
-</script>
 <script>
     function loremipsun() {
   alert("Lorem Ipsun");
 }
 </script>
+<!-- Smooth scroll -->
+<script>
+	let scroll = new SmoothScroll('a[href*="#"]',{
+        speed: 500,
+	speedAsDuration: true,
+    easing: 'Linear'
+    });
+ // Easing pattern to use
+</script>
+<!-- Smooth scroll end -->
+
 <script>
     /*Execute a function that will execute an image compare function for each element with the img-comp-overlay class:*/
     initComparisons();
